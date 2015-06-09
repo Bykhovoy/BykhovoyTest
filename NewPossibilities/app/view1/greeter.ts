@@ -30,7 +30,6 @@ function greeter(person: Person) {
 }
 
 var user = new Student("Jane", "M.", "User");
-var prof = new Professor("Jane", "Air", "None");
 
 document.body.innerHTML = greeter(user);
 
